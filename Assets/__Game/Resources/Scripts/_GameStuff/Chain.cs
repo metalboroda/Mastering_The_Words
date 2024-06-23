@@ -65,7 +65,20 @@ namespace Assets.__Game.Resources.Scripts._GameStuff
 
     private void Start()
     {
+      _image.sprite = _variantSprite;
       _textMesh.text = _variantText;
+
+      PlayVariantAudioCLip();
+    }
+
+    public void PlayVariantAudioCLip()
+    {
+      if (_gameBootstrapper.StateMachine.CurrentState is GameplayState)
+      {
+        EventBus<VariantAudioClickedEvent>.Raise(new VariantAudioClickedEvent { AudioClip = _variantClip });
+
+        _audioSource.PlayOneShot(_correctClip);
+      }
     }
 
     private void OnGamePlayState(StateChanged stateChanged)
