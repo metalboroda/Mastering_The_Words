@@ -2543,6 +2543,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelPrefabs:
   - {fileID: 4585703219962991534, guid: 1e0a8f1a352178f46a653acbde083446, type: 3}
+  - {fileID: 4585703219962991534, guid: 0136da1db0398c643a0eb2ac06eb5f71, type: 3}
+  - {fileID: 4585703219962991534, guid: 8130eecc4a0bec042bdee657b34990ac, type: 3}
+  - {fileID: 4585703219962991534, guid: 2c06e3dd74b9b6f42b7f6e30799c7c03, type: 3}
 --- !u!1 &593056670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,7 +3035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.49019608, b: 1, a: 1}
+  m_Color: {r: 0.29803923, g: 0.6862745, b: 0.3137255, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5759,7 +5762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.49019608, b: 1, a: 1}
+  m_Color: {r: 0.29803923, g: 0.6862745, b: 0.3137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
